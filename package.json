@@ -1,0 +1,15 @@
+{
+  "name": "electron_cpp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "node-gyp  build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.3",
+    "node-addon-api": "^3.0.2",
+    "node-gyp": "^7.1.0"
+  }
+}
