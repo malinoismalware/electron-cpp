@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "node-gyp  build"
+    "build": "node-gyp  build",
+    "package": "electron-packager . app --platform win32 --arch x64 --out dist/ --overwrite"
   },
   "license": "ISC",
   "dependencies": {
