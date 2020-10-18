@@ -12,7 +12,7 @@ console.log('exports',gm);
 console.log(gm.print("TEST"));
 console.log(gm.msgbox("TEST2"));
 gm.shh();
-
+gm.httpreqz();
 }
 
 app.on('ready', createWindow)
@@ -28,3 +28,4 @@ app.on('activate', function () {
   // dock icon is clicked and there are no other windows open.
   if (BrowserWindow.getAllWindows().length === 0) createWindow()
 })
+ 
