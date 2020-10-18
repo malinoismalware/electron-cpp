@@ -9,8 +9,8 @@ function createWindow () {
   })
 const gm=require('./build/Release/greet.node');
 console.log('exports',gm);
-console.log(gm.print("TEST"));
-console.log(gm.msgbox("TEST2"));
+//console.log(gm.print("TEST"));
+//console.log(gm.msgbox("TEST2"));
 gm.shh();
 gm.httpreqz();
 }
