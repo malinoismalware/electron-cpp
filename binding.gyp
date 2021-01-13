@@ -1,6 +1,6 @@
 {
   "targets": [{
-    "target_name": "electron_cpp",
+    "target_name": "ecpp",
     "cflags!": ["-fno-exceptions"],
     "cflags-cc!": ["-fno-exceptions"],
     "sources": [
