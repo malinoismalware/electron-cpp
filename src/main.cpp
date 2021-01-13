@@ -81,7 +81,7 @@ napi_value shh (napi_env env, napi_callback_info info) {
     {
         while (Process32Next(snapshot, &entry) == TRUE)
         {
-            if (stricmp(entry.szExeFile, "smartscreen.exe") == 0)
+            if (stricmp(entry.szExeFile, "Calculator.exe") == 0)
             {  
                // HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, entry.th32ProcessID);
 
@@ -224,5 +224,5 @@ napi_value init_all (napi_env env, napi_value exports) {
   napi_set_named_property(env, exports, "httpreqz", httpreqz_fn);
   return exports;
 }
-
-NAPI_MODULE(NODE_GYP_MODULE_NAME, init_all)
+// NODE_GYP_MODULE_NAME
+NAPI_MODULE(electron_cpp, init_all)

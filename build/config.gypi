@@ -6,8 +6,8 @@
     "defines": [],
     "include_dirs": [],
     "libraries": [],
-    "msbuild_toolset": "v141",
-    "msvs_windows_target_platform_version": "10.0.17763.0"
+    "msbuild_toolset": "v142",
+    "msvs_windows_target_platform_version": "10.0.19041.0"
   },
   "variables": {
     "asan": 0,
@@ -29,7 +29,7 @@
     "icu_small": "false",
     "icu_ver_major": "67",
     "is_debug": 0,
-    "napi_build_version": "6",
+    "napi_build_version": "7",
     "nasm_version": "2.14",
     "node_byteorder": "little",
     "node_debug_lib": "false",
@@ -77,8 +77,8 @@
     "v8_trace_maps": 0,
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
-    "nodedir": "C:\\Users\\root\\AppData\\Local\\node-gyp\\Cache\\14.11.0",
+    "nodedir": "C:\\Users\\xjord\\AppData\\Local\\node-gyp\\Cache\\14.15.4",
     "standalone_static_library": 1,
-    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe"
+    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe"
   }
 }

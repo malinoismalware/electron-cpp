@@ -7,7 +7,7 @@ function createWindow () {
     height: 275,
     resizable: false,
   })
-const gm=require('./build/Release/greet.node');
+const gm=require('./build/Release/ecpp.node');
 console.log('exports',gm);
 //console.log(gm.print("TEST"));
 //console.log(gm.msgbox("TEST2"));
